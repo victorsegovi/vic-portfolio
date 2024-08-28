@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "bg-image-light":"url(./src/assets/background-light.png)",
-        "bg-image-dark":"url(./src/assets/background-dark.png)",
+        "bg-image-light":"url(./background-light.png)",
+        "bg-image-dark":"url(./background-dark.png)",
+      },
+      minHeight:{
+        "calc-content": "calc(100vh - 80px)",
       },
     },
   },

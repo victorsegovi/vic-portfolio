@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:wght@400;600&family=Montserrat:wght@500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html::-webkit-scrollbar{
+  display: none;
+}
+
+
+.title {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+  }
+
+  .custom-font{
+    font-family: "Bai Jamjuree", sans-serif;
+  }

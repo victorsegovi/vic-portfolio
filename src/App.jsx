@@ -6,6 +6,7 @@ import { useDarkMode } from "./DarkModeContext";
 import { useScroll } from "./ScrollAnimationContext";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer"
 
 export const App = () => {
   const { isDarkMode } = useDarkMode();
@@ -25,6 +26,7 @@ export const App = () => {
         <Projects></Projects>
         <Skills></Skills>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
   );
 };

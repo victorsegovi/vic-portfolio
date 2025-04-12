@@ -3,12 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { useState } from "react";
 import { useDarkMode } from "../DarkModeContext";
-import { IoPersonOutline } from "react-icons/io5";
-import { MdAlternateEmail } from "react-icons/md";
-import { AiOutlineMessage } from "react-icons/ai";
-import { IoSend } from "react-icons/io5";
 import { useScroll } from "../ScrollAnimationContext";
 
 const Contact = () => {
